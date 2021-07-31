@@ -78,7 +78,7 @@ bin/sqoop import \
 --num-mappers 1 
 ```
 bin/sqoop import \
---connect jdbc:mysql://bigdata:3306/db_sqoop \
+--connect jdbc:mysql://localhost:3306/db_sqoop \
 --username root \
 --password 123456 \
 --table user_info \
